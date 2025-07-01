@@ -5,6 +5,7 @@ resource "azurerm_resource_group" "rg-block" {
 }
 
 #Storage account has been added successfully
+
 resource "azurerm_storage_account" "sablock" {
   name                     = var.sa_name
   location                 = var.location
